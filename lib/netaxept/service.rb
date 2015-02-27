@@ -26,10 +26,10 @@ module Netaxept
       
       def environment=(new_environment)
         if(new_environment == :production)
-          base_uri "https://epayment.bbs.no/"
+          base_uri "https://epayment.nets.eu/"
         end
         if(new_environment == :test)
-          base_uri "https://epayment-test.bbs.no/"
+          base_uri "https://test.epayment.nets.eu/"
         end
       end
       
